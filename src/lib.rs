@@ -1,7 +1,7 @@
 // src/lib.rs
 
 mod data;
-pub mod hash;
+mod hash;
 mod json;
 
 pub use hash::{hash_file, hash_file_list};

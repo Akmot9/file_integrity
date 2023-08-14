@@ -85,6 +85,10 @@ fn calculate_md5_hash(input: &String) -> String {
 
 #[cfg(test)]
 mod tests {
+    use std::{fs::File, io::Write};
+    use tempfile::tempdir;
+    use crate::hash_file;
+
     use super::calculate_md5_hash;
     #[test]
     fn test_calculate_md5_hash() {
@@ -96,9 +100,21 @@ mod tests {
     
     #[test]
     fn test_hash_file_valid_file() {
-        // Test the hash_file function with a valid file path
-        // Ensure the correct MD5 hash is generated
-    }
+    // Create a temporary file with known content
+    let temp_dir = tempdir().expect("Failed to create temporary directory");
+    let temp_file_path = temp_dir.path().join("test_file.txt");
+    let mut temp_file = File::create(&temp_file_path).expect("Failed to create temporary file");
+    temp_file
+        .write_all(b"This is a test file.\n")  // Add a newline character
+        .expect("Failed to write to temporary file");
+
+    // Calculate the expected hash value for the content
+    let expected_hash = "2d282102fa671256327d4767ec23bc6b";
+
+    // Calculate the hash and compare with the expected value
+    let result = hash_file(temp_file_path.display().to_string());
+    assert_eq!(result.md5_hash, expected_hash);
+}
 
     #[test]
     fn test_hash_file_nonexistent_file() {
