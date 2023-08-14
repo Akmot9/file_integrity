@@ -87,13 +87,13 @@ fn calculate_md5_hash(input: &String) -> String {
 mod tests {
     use std::{fs::File, io::Write};
     use tempfile::tempdir;
-    use crate::hash_file;
+    use crate::{hash_file, FileInfo};
 
     use super::calculate_md5_hash;
     #[test]
     fn test_calculate_md5_hash() {
-        let input = String::from("test");
-        let expected_hash = "098f6bcd4621d373cade4e832627b4f6";
+        let input = String::from("hello, world");
+        let expected_hash = "e4d7f1b4ed2e42d15898f4b27b019da4";
         let calculated_hash = calculate_md5_hash(&input);
         assert_eq!(calculated_hash, expected_hash);
     }
@@ -120,6 +120,19 @@ mod tests {
     fn test_hash_file_nonexistent_file() {
         // Test the hash_file function with a non-existent file path
         // Ensure the "none" hash is generated
+
+        // Define a non-existent file path
+        let file_path = "nonexistent_file.txt"; // Adjust the path accordingly
+
+        // Call the function you want to test
+        let result = hash_file(file_path.to_string());
+
+        // Check that the result matches the expected FileInfo structure
+        let expected_result = FileInfo {
+            filename: file_path.to_string(),
+            md5_hash: "none".to_string(),
+        };
+        assert_eq!(result.md5_hash, expected_result.md5_hash);
     }
 
     #[test]
