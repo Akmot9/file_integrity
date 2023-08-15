@@ -1,10 +1,29 @@
 [package]
-name = "file_integrity_lib"
+name = "file_integrity"
 version = "0.1.0"
+authors = ["akmot9 avicocyprien@yahoo.com"]
 edition = "2021"
+description = "A simple lib to make integrity report "
+homepage = "https://github.com/Akmot9/file_integrity"
+repository = "https://github.com/Akmot9/file_integrity"
+license = "MIT OR Apache-2.0"
+keywords = [
+    "crypto",
+    "integrity",
+    "file",
+    "log"
+]
+categories = [
+    "cubersecurity"
+]
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md"
+]
 
 [lib]
-name = "file_integrity_lib"
+name = "file_integrity"
 path = "src/lib.rs" 
 
 [dependencies]

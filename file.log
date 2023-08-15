@@ -1,2 +1,120 @@
-[2023-08-14 22:36:00.911748839 UTC] ERROR: Can't open file: nonexistent_file.txt
+[2023-08-15 13:45:59.771397554 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 13:46:00.123183709 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 13:49:05.478061895 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 13:49:05.815428492 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 13:50:25.233206478 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 13:50:25.592142120 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 13:50:39.674785234 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 13:53:49.658967519 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 13:56:31.749657210 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 13:56:32.109247991 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:00:35.055780211 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:00:35.417010897 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:06:40.019733219 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:06:40.377373207 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:06:53.188388712 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:07:07.350516516 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:08:18.186562390 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:08:18.510640950 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:08:20.516609896 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:09:33.021175835 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:09:33.350503023 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:09:59.634423280 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:09:59.967197930 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:10:21.327006509 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:10:21.673843604 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:20:14.643637242 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:20:14.991162192 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:20:15.011397426 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:20:15.011657420 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 14:20:33.182078681 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:20:33.537707924 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:20:33.538001511 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 14:20:33.570711419 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:20:33.581259797 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:21:10.324421464 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:21:10.713593394 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:21:10.748629504 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:21:10.766221946 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:21:10.766365498 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 14:21:49.055680374 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:21:49.477494915 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 14:21:49.477700785 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 14:21:49.484480385 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:21:49.485406271 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:21:49.500920370 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:21:49.501169062 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 14:23:39.062150556 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:23:39.485633372 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:23:39.486018152 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 14:23:39.486207341 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 14:23:39.492993514 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:23:39.507720740 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:23:39.507967749 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 14:23:50.610434672 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 14:23:51.110856464 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:23:51.150512619 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 14:23:51.160740570 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 14:23:51.160897457 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 14:23:51.199049939 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 14:23:51.199214601 UTC] ERROR: Can't open file 'path/to/your/file_list.txt': No such file or directory (os error 2)
 

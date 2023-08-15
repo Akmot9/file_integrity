@@ -5,6 +5,39 @@ use crate::data::{FileInfo, FileList};
 use my_logger::log;
 use chrono::Local;
 
+/// Calculate hashes for a list of files from a text file.
+///
+/// This function reads a list of file paths from the specified text file, calculates
+/// MD5 hashes for the contents of each file, and returns a `FileList` struct containing
+/// the date of the operation and a vector of `FileInfo` entries.
+///
+/// Only files not starting with '/sys/', '/dev/', '/run/', or '/proc/' are included in the
+/// hash calculation process.
+///
+/// # Arguments
+///
+/// * `filename` - The path to the text file containing the list of file paths to hash.
+///
+/// # Returns
+///
+/// A `FileList` struct containing the date and a vector of `FileInfo` entries.
+///
+/// # Examples
+///
+/// ```
+/// use file_integrity::{hash_file_list, FileList};
+///
+/// let filename = "path/to/your/file_list.txt";
+/// let file_list = hash_file_list(filename);
+/// println!("Date: {}", file_list.date);
+/// println!("Number of Files: {}", file_list.files.len());
+/// ```
+///
+/// # Errors
+///
+/// This function can return an error if the file cannot be opened or read, or if there are
+/// issues reading lines from the file.
+
 pub fn hash_file_list(filename: &str) -> FileList {
     log!("STATUS: Hashing files: Please wait...");
     let date = Local::now().format("%Y-%m-%d").to_string();
@@ -39,6 +72,38 @@ pub fn hash_file_list(filename: &str) -> FileList {
     log!("STATUS: Hashing files: Success !");
     liste
 }
+
+/// Calculate the hash of a file's contents.
+///
+/// This function reads the contents of the specified file, calculates its MD5 hash,
+/// and returns the result as a `FileInfo` struct.
+///
+/// If the file cannot be opened, read, or its contents cannot be decoded as UTF-8,
+/// an error `FileInfo` with "none" as the hash is returned.
+///
+/// # Arguments
+///
+/// * `filename` - The path to the file for which to calculate the MD5 hash.
+///
+/// # Returns
+///
+/// A `FileInfo` struct containing the filename and MD5 hash of the file's contents.
+///
+/// # Examples
+///
+/// ```
+/// use file_integrity::{hash_file, FileInfo};
+///
+/// let filename = "path/to/your/file.txt".to_string();
+/// let file_info = hash_file(filename);
+/// println!("Filename: {}", file_info.filename);
+/// println!("MD5 Hash: {}", file_info.md5_hash);
+/// ```
+///
+/// # Errors
+///
+/// This function can return an error if the file cannot be opened, read, or its contents
+/// cannot be decoded as UTF-8.
 
 pub fn hash_file(filename: String) -> FileInfo {
     let mut file = match File::open(filename.clone()) {
@@ -75,14 +140,37 @@ pub fn hash_file(filename: String) -> FileInfo {
     }
 }
 
-fn calculate_md5_hash(input: &String) -> String {
+/// Calculates the hash of a given input string.
+///
+/// This function takes an input string and calculates its MD5 hash using the MD5 algorithm.
+/// The resulting hash is returned as a hexadecimal string.
+///
+/// # Arguments
+///
+/// * `input` - The input string for which to calculate the MD5 hash.
+///
+/// # Returns
+///
+/// The MD5 hash as a hexadecimal string.
+///
+/// # Examples
+///
+/// ```
+/// use file_integrity::calculate_md5_hash;
+///
+/// let input = "Hello, world!";
+/// let hash = calculate_md5_hash(&input.to_string());
+/// println!("MD5 hash: {}", hash);
+/// ```
+
+pub fn calculate_md5_hash(input: &String) -> String {
     let mut hasher = Md5::new();
     hasher.update(input);
     let result = hasher.finalize();
     let hash_string = format!("{:x}", result);
     hash_string
 }
-
+#[doc(hidden)]
 #[cfg(test)]
 mod tests {
     use std::{fs::File, io::Write};
