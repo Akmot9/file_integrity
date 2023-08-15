@@ -6,7 +6,8 @@ The *File Integrity Library* is a Rust crate designed to help you calculate MD5 
 
 ## Features
 
-- Calculate MD5 hashes for file contents.
+- Calculate hashes for a list of files.
+- Calculate hashes for file contents.
 - Generate JSON reports of file integrity status.
 
 ## Installation
@@ -14,13 +15,13 @@ Add this crate to your Cargo.toml:
 
 ```toml
 [dependencies]
-file_integrity_lib = "0.1.0"
+file_integrity = "0.1.2"
 ```
 
 ## Usage
 ### Hashing a Single File
 ```rust
-use file_integrity_lib::hash_file;
+use file_integrity::hash_file;
 
 fn main() {
     let filename = "path/to/your/file.txt".to_string();
@@ -31,7 +32,7 @@ fn main() {
 ```
 ### Hashing Files from a List
 ```rust
-use file_integrity_lib::hash_file_list;
+use file_integrity::hash_file_list;
 
 fn main() {
     let filename = "path/to/your/file_list.txt";
@@ -42,7 +43,7 @@ fn main() {
 ```
 ### Writing JSON Reports
 ```rust
-use file_integrity_lib::{hash_file_list, write_json_file, FileList};
+use file_integrity::{hash_file_list, write_json_file};
 
 fn main() {
     let filename = "path/to/your/file_list.txt";
