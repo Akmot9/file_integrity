@@ -1,4 +1,4 @@
-# file_intergity
+# file_integrity
 
 [![Crates.io](https://img.shields.io/crates/v/file_integrity.svg)](https://crates.io/crates/file_integrity)
 
