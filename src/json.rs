@@ -26,7 +26,8 @@ use my_logger::log;
 ///     date: "2023-08-10".to_string(),
 ///     files: vec![/* FileInfo entries */],
 /// };
-/// write_json_file(&file_list);
+/// let file_name = "output.json" ;
+/// write_json_file(&file_list, &file_name);
 /// ```
 ///
 /// # Errors
@@ -34,7 +35,7 @@ use my_logger::log;
 /// This function can return an error if serialization to JSON fails or if there are issues
 /// with file I/O operations.
 
-pub fn write_json_file(hash_set: &FileList) {
+pub fn write_json_file(hash_set: &FileList, output_file_name: &str) {
     log!("STATUS: Writing json: Please wait...");
     let json_output = match serde_json::to_string_pretty(&hash_set) {
         Ok(output) => output,
@@ -44,7 +45,7 @@ pub fn write_json_file(hash_set: &FileList) {
         }
     };
 
-    let output_file = "output.json";
+    let output_file = output_file_name;
     match File::create(output_file) {
         Ok(mut file) => {
             if let Err(err) = file.write_all(json_output.as_bytes()) {
