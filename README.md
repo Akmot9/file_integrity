@@ -19,35 +19,17 @@ file_integrity = "0.1.2"
 ```
 
 ## Usage
-### Hashing a Single File
+### Hashing a the all computer files
 ```rust
-use file_integrity::hash_file;
-
 fn main() {
-    let filename = "path/to/your/file.txt".to_string();
-    let result = hash_file(filename.clone());
-    println!("Filename: {}", result.filename);
-    println!("MD5 Hash: {}", result.md5_hash);
-}
-```
-### Hashing Files from a List
-```rust
-use file_integrity::hash_file_list;
+    let folder_path = "/" ;
+    let nbs_of_file = list_files(&folder_path);
+    log!("INFOS: Number of files: {nbs_of_file}");
 
-fn main() {
-    let filename = "path/to/your/file_list.txt";
-    let file_list = hash_file_list(filename);
-    println!("Date: {}", file_list.date);
-    println!("Number of Files: {}", file_list.files.len());
-}
-```
-### Writing JSON Reports
-```rust
-use file_integrity::{hash_file_list, write_json_file};
-
-fn main() {
-    let filename = "path/to/your/file_list.txt";
-    let file_list = hash_file_list(filename);
-    write_json_file(&file_list);
+    let file_path_list = "file_list.txt";
+    
+    let hashs = hash_file_list(file_path_list);
+    let name = "outp2ut.json" ; 
+    write_json_file(&hashs, &name);
 }
 ```

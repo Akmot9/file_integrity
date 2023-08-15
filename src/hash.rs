@@ -27,8 +27,7 @@ use chrono::Local;
 /// ```
 /// use file_integrity::{hash_file_list, FileList};
 ///
-/// let filename = "path/to/your/file_list.txt";
-/// let file_list = hash_file_list(filename);
+/// let file_list = hash_file_list(); // hashs file_list.txt by defalt if no ags given
 /// println!("Date: {}", file_list.date);
 /// println!("Number of Files: {}", file_list.files.len());
 /// ```
@@ -38,17 +37,21 @@ use chrono::Local;
 /// This function can return an error if the file cannot be opened or read, or if there are
 /// issues reading lines from the file.
 
-pub fn hash_file_list(filename: &str) -> FileList {
+pub fn hash_file_list() -> FileList {
     log!("STATUS: Hashing files: Please wait...");
     let date = Local::now().format("%Y-%m-%d").to_string();
     let mut liste = FileList {
         date,
         files: vec![],
     };
-    let file = match File::open(filename) {
+    
+    // Use the provided filename or use the default value "file_list.txt"
+    let actual_filename = "file_list.txt";
+    
+    let file = match File::open(actual_filename) {
         Ok(file) => file,
         Err(error) => {
-            log!("ERROR: Can't open file '{}': {}", filename, error);
+            log!("ERROR: Can't open file '{}': {}", actual_filename, error);
             return liste;
         }
     };
@@ -57,7 +60,7 @@ pub fn hash_file_list(filename: &str) -> FileList {
         let line = match line_result {
             Ok(line) => line,
             Err(error) => {
-                log!("ERROR: Can't read line from file '{}': {}", filename, error);
+                log!("ERROR: Can't read line from file '{}': {}", actual_filename, error);
                 continue;
             }
         };

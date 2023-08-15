@@ -142,3 +142,493 @@
 
 [2023-08-15 20:35:08.483946358 UTC] ERROR: Can't open file: path/to/your/file.txt
 
+[2023-08-15 21:16:43.683406342 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:16:44.167196605 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:16:44.178364947 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:16:44.179344785 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:16:44.179433913 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:20:24.839635372 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:20:25.337724409 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:20:25.337930868 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:20:25.387868848 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:20:25.393068574 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:20:25.407053589 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:20:25.407328227 UTC] ERROR: Can't open file 'file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 21:21:00.953991299 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:21:01.399559354 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:21:01.405231461 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:21:01.405451416 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:21:01.407459373 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:24:17.267053284 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:24:17.767962736 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:24:17.768193798 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:24:17.780464294 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:24:17.847466267 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:24:17.856260690 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:24:17.856486262 UTC] ERROR: Can't open file 'file_list.txt': No such file or directory (os error 2)
+
+[2023-08-15 21:37:15.749072125 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:37:16.346589859 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:37:16.393787825 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:37:16.393914615 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:37:16.434369877 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:37:16.458214540 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:37:16.458559402 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:37:16.476653758 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:37:16.476757104 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:47:14.844773667 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:47:15.398646597 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:47:15.398871714 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:47:15.399982763 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:47:15.431702181 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:47:15.431897983 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:47:15.440741216 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:47:15.440859089 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:49:28.899778922 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:49:29.477958715 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:49:29.500418360 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:49:29.500508331 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:49:29.517773264 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:49:29.517954668 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:49:29.529000758 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:49:29.529185047 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:50:14.572171595 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:50:15.113625245 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:50:15.144915125 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:50:15.145269367 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:50:15.161720240 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:50:15.161830479 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:50:15.175044675 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:50:15.175270694 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:50:34.445950674 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:50:35.087011457 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:50:35.087800283 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:50:35.090318698 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:50:35.090448103 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:50:35.102810262 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:50:35.112007850 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:50:35.112175328 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:50:35.115597436 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:50:45.829962608 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:50:45.883999487 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:50:46.090334411 UTC] ERROR: Can't open file: /boot/System.map-6.2.0-26-generic
+
+[2023-08-15 21:50:46.090391970 UTC] ERROR: Can't open file: /boot/vmlinuz-6.2.0-26-generic
+
+[2023-08-15 21:50:46.112642866 UTC] ERROR: Can't open file: /boot/System.map-5.15.0-43-generic
+
+[2023-08-15 21:50:46.290003336 UTC] ERROR: Can't open file: /etc/ufw/before6.rules
+
+[2023-08-15 21:50:46.290110048 UTC] ERROR: Can't open file: /etc/ufw/after6.rules
+
+[2023-08-15 21:50:46.290569079 UTC] ERROR: Can't open file: /etc/ufw/before.rules
+
+[2023-08-15 21:50:46.290636516 UTC] ERROR: Can't open file: /etc/ufw/user.rules
+
+[2023-08-15 21:50:46.290689256 UTC] ERROR: Can't open file: /etc/ufw/before.init
+
+[2023-08-15 21:50:46.290739321 UTC] ERROR: Can't open file: /etc/ufw/user6.rules
+
+[2023-08-15 21:50:46.291027648 UTC] ERROR: Can't open file: /etc/ufw/after.init
+
+[2023-08-15 21:50:46.291094565 UTC] ERROR: Can't open file: /etc/ufw/after.rules
+
+[2023-08-15 21:50:46.293685287 UTC] ERROR: Can't open file: /etc/ppp/pap-secrets
+
+[2023-08-15 21:50:46.293741163 UTC] ERROR: Can't open file: /etc/ppp/chap-secrets
+
+[2023-08-15 21:50:46.301470437 UTC] ERROR: Can't open file: /etc/NetworkManager/system-connections/iPhone de cyprien.nmconnection
+
+[2023-08-15 21:50:46.301496326 UTC] ERROR: Can't open file: /etc/NetworkManager/system-connections/Bbox-A976B8EF.nmconnection
+
+[2023-08-15 21:50:46.333880013 UTC] ERROR: Can't open file: /etc/default/cacerts
+
+[2023-08-15 21:50:46.574197093 UTC] ERROR: Can't open file: /etc/shadow
+
+[2023-08-15 21:50:46.580902436 UTC] ERROR: Can't open file: /etc/.pwd.lock
+
+[2023-08-15 21:50:46.583041191 UTC] ERROR: Can't open file: /etc/cups/subscriptions.conf.O
+
+[2023-08-15 21:50:46.583263933 UTC] ERROR: Can't open file: /etc/cups/subscriptions.conf
+
+[2023-08-15 21:50:46.590307928 UTC] ERROR: Can't open file: /etc/profile.d/debuginfod.sh
+
+[2023-08-15 21:50:46.590678080 UTC] ERROR: Can't open file: /etc/profile.d/debuginfod.csh
+
+[2023-08-15 21:50:46.816337230 UTC] ERROR: Can't open file: /etc/security/opasswd
+
+[2023-08-15 21:50:46.817201699 UTC] ERROR: Can't open file: /etc/gshadow-
+
+[2023-08-15 21:50:46.818582827 UTC] ERROR: Can't open file: /etc/gshadow
+
+[2023-08-15 21:50:46.846580088 UTC] ERROR: Can't open file: /etc/sudoers.d/README
+
+[2023-08-15 21:50:46.849889482 UTC] ERROR: Can't open file: /etc/shadow-
+
+[2023-08-15 21:50:46.869882026 UTC] ERROR: Can't open file: /etc/sudoers
+
+[2023-08-15 21:50:46.879481907 UTC] ERROR: Can't open file: /etc/brlapi.key
+
+[2023-08-15 21:51:17.963492821 UTC] ERROR: Can't open file: /snap/core22/858/etc/.pwd.lock
+
+[2023-08-15 21:51:18.006608204 UTC] ERROR: Can't open file: /snap/core22/858/etc/gshadow
+
+[2023-08-15 21:51:18.026460438 UTC] ERROR: Can't open file: /snap/core22/858/etc/security/opasswd
+
+[2023-08-15 21:51:18.028376160 UTC] ERROR: Can't open file: /snap/core22/858/etc/shadow
+
+[2023-08-15 21:51:18.081729270 UTC] ERROR: Can't open file: /snap/core22/858/etc/sudoers
+
+[2023-08-15 21:51:18.081790075 UTC] ERROR: Can't open file: /snap/core22/858/etc/sudoers.d/README
+
+[2023-08-15 21:51:27.870171802 UTC] ERROR: Can't open file: /snap/core22/858/var/lib/extrausers/gshadow
+
+[2023-08-15 21:51:27.870248357 UTC] ERROR: Can't open file: /snap/core22/858/var/lib/extrausers/shadow
+
+[2023-08-15 21:51:27.876488005 UTC] ERROR: Can't open file: /snap/core20/1974/etc/.pwd.lock
+
+[2023-08-15 21:51:27.914459805 UTC] ERROR: Can't open file: /snap/core20/1974/etc/gshadow
+
+[2023-08-15 21:51:27.931221459 UTC] ERROR: Can't open file: /snap/core20/1974/etc/security/opasswd
+
+[2023-08-15 21:51:27.933465974 UTC] ERROR: Can't open file: /snap/core20/1974/etc/shadow
+
+[2023-08-15 21:51:27.986604965 UTC] ERROR: Can't open file: /snap/core20/1974/etc/sudoers
+
+[2023-08-15 21:51:27.986662204 UTC] ERROR: Can't open file: /snap/core20/1974/etc/sudoers.d/README
+
+[2023-08-15 21:51:35.953208491 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:51:37.025191624 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:51:37.034501611 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:51:37.034615046 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:51:37.042054999 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:51:37.043594768 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:51:37.115218926 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:51:37.135676384 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:51:37.204635690 UTC] ERROR: Can't open file: /boot/grub/x86_64-ef
+
+[2023-08-15 21:51:37.204676006 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:51:48.021409076 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:51:48.102032687 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:51:48.181464328 UTC] ERROR: Can't open file: /boot/System.map-6.2.0-26-generic
+
+[2023-08-15 21:51:48.181523631 UTC] ERROR: Can't open file: /boot/vmlinuz-6.2.0-26-generic
+
+[2023-08-15 21:51:48.203964998 UTC] ERROR: Can't open file: /boot/System.map-5.15.0-43-generic
+
+[2023-08-15 21:51:48.378309646 UTC] ERROR: Can't open file: /etc/ufw/before6.rules
+
+[2023-08-15 21:51:48.378754509 UTC] ERROR: Can't open file: /etc/ufw/after6.rules
+
+[2023-08-15 21:51:48.379746600 UTC] ERROR: Can't open file: /etc/ufw/before.rules
+
+[2023-08-15 21:51:48.379807695 UTC] ERROR: Can't open file: /etc/ufw/user.rules
+
+[2023-08-15 21:51:48.379832563 UTC] ERROR: Can't open file: /etc/ufw/before.init
+
+[2023-08-15 21:51:48.379855767 UTC] ERROR: Can't open file: /etc/ufw/user6.rules
+
+[2023-08-15 21:51:48.380374941 UTC] ERROR: Can't open file: /etc/ufw/after.init
+
+[2023-08-15 21:51:48.380404577 UTC] ERROR: Can't open file: /etc/ufw/after.rules
+
+[2023-08-15 21:51:48.381897236 UTC] ERROR: Can't open file: /etc/ppp/pap-secrets
+
+[2023-08-15 21:51:48.381931782 UTC] ERROR: Can't open file: /etc/ppp/chap-secrets
+
+[2023-08-15 21:51:48.389549912 UTC] ERROR: Can't open file: /etc/NetworkManager/system-connections/iPhone de cyprien.nmconnection
+
+[2023-08-15 21:51:48.389580349 UTC] ERROR: Can't open file: /etc/NetworkManager/system-connections/Bbox-A976B8EF.nmconnection
+
+[2023-08-15 21:51:48.420654360 UTC] ERROR: Can't open file: /etc/default/cacerts
+
+[2023-08-15 21:51:48.656654043 UTC] ERROR: Can't open file: /etc/shadow
+
+[2023-08-15 21:51:48.663185855 UTC] ERROR: Can't open file: /etc/.pwd.lock
+
+[2023-08-15 21:51:48.665311814 UTC] ERROR: Can't open file: /etc/cups/subscriptions.conf.O
+
+[2023-08-15 21:51:48.665539847 UTC] ERROR: Can't open file: /etc/cups/subscriptions.conf
+
+[2023-08-15 21:51:48.672269362 UTC] ERROR: Can't open file: /etc/profile.d/debuginfod.sh
+
+[2023-08-15 21:51:48.672611390 UTC] ERROR: Can't open file: /etc/profile.d/debuginfod.csh
+
+[2023-08-15 21:51:48.900761706 UTC] ERROR: Can't open file: /etc/security/opasswd
+
+[2023-08-15 21:51:48.901698141 UTC] ERROR: Can't open file: /etc/gshadow-
+
+[2023-08-15 21:51:48.903014145 UTC] ERROR: Can't open file: /etc/gshadow
+
+[2023-08-15 21:51:48.930736402 UTC] ERROR: Can't open file: /etc/sudoers.d/README
+
+[2023-08-15 21:51:48.934108975 UTC] ERROR: Can't open file: /etc/shadow-
+
+[2023-08-15 21:51:48.953023537 UTC] ERROR: Can't open file: /etc/sudoers
+
+[2023-08-15 21:51:48.961818448 UTC] ERROR: Can't open file: /etc/brlapi.key
+
+[2023-08-15 21:52:20.133805029 UTC] ERROR: Can't open file: /snap/core22/858/etc/.pwd.lock
+
+[2023-08-15 21:52:20.174885949 UTC] ERROR: Can't open file: /snap/core22/858/etc/gshadow
+
+[2023-08-15 21:52:20.193901148 UTC] ERROR: Can't open file: /snap/core22/858/etc/security/opasswd
+
+[2023-08-15 21:52:20.195771994 UTC] ERROR: Can't open file: /snap/core22/858/etc/shadow
+
+[2023-08-15 21:52:20.248581092 UTC] ERROR: Can't open file: /snap/core22/858/etc/sudoers
+
+[2023-08-15 21:52:20.248625837 UTC] ERROR: Can't open file: /snap/core22/858/etc/sudoers.d/README
+
+[2023-08-15 21:52:30.058214864 UTC] ERROR: Can't open file: /snap/core22/858/var/lib/extrausers/gshadow
+
+[2023-08-15 21:52:30.058289675 UTC] ERROR: Can't open file: /snap/core22/858/var/lib/extrausers/shadow
+
+[2023-08-15 21:52:30.063342121 UTC] ERROR: Can't open file: /snap/core20/1974/etc/.pwd.lock
+
+[2023-08-15 21:52:30.101777615 UTC] ERROR: Can't open file: /snap/core20/1974/etc/gshadow
+
+[2023-08-15 21:52:30.118279901 UTC] ERROR: Can't open file: /snap/core20/1974/etc/security/opasswd
+
+[2023-08-15 21:52:30.121280818 UTC] ERROR: Can't open file: /snap/core20/1974/etc/shadow
+
+[2023-08-15 21:52:30.176558732 UTC] ERROR: Can't open file: /snap/core20/1974/etc/sudoers
+
+[2023-08-15 21:52:30.176616732 UTC] ERROR: Can't open file: /snap/core20/1974/etc/sudoers.d/README
+
+[2023-08-15 21:52:38.693959167 UTC] ERROR: Can't open file: /snap/core20/1974/var/lib/extrausers/gshadow
+
+[2023-08-15 21:52:38.694031735 UTC] ERROR: Can't open file: /snap/core20/1974/var/lib/extrausers/shadow
+
+[2023-08-15 21:52:38.700079276 UTC] ERROR: Can't open file: /snap/core20/1587/etc/.pwd.lock
+
+[2023-08-15 21:52:38.732890740 UTC] ERROR: Can't open file: /snap/core20/1587/etc/gshadow
+
+[2023-08-15 21:52:38.748664964 UTC] ERROR: Can't open file: /snap/core20/1587/etc/security/opasswd
+
+[2023-08-15 21:52:38.750628265 UTC] ERROR: Can't open file: /snap/core20/1587/etc/shadow
+
+[2023-08-15 21:52:38.800691454 UTC] ERROR: Can't open file: /snap/core20/1587/etc/sudoers
+
+[2023-08-15 21:52:38.800733654 UTC] ERROR: Can't open file: /snap/core20/1587/etc/sudoers.d/README
+
+[2023-08-15 21:52:46.890213412 UTC] ERROR: Can't open file: /snap/core20/1587/var/lib/extrausers/gshadow
+
+[2023-08-15 21:52:46.890297632 UTC] ERROR: Can't open file: /snap/core20/1587/var/lib/extrausers/shadow
+
+[2023-08-15 21:53:12.021479258 UTC] ERROR: Can't open file: /swapfile
+
+[2023-08-15 21:53:12.465618433 UTC] ERROR: Can't open file: /var/log/boot.log
+
+[2023-08-15 21:53:12.813048906 UTC] ERROR: Can't open file: /var/log/boot.log.4
+
+[2023-08-15 21:53:12.813094993 UTC] ERROR: Can't open file: /var/log/boot.log.3
+
+[2023-08-15 21:53:12.834646022 UTC] ERROR: Can't open file: /var/log/boot.log.2
+
+[2023-08-15 21:53:12.836050053 UTC] ERROR: Can't open file: /var/log/boot.log.5
+
+[2023-08-15 21:53:12.944801746 UTC] ERROR: Can't open file: /var/log/btmp
+
+[2023-08-15 21:53:12.944845629 UTC] ERROR: Can't open file: /var/log/boot.log.1
+
+[2023-08-15 21:53:13.642913689 UTC] ERROR: Can't open file: /var/cache/apt/archives/lock
+
+[2023-08-15 21:53:15.348674053 UTC] ERROR: Can't open file: /var/cache/debconf/passwords.dat
+
+[2023-08-15 21:53:15.361962344 UTC] ERROR: Can't open file: /var/spool/anacron/cron.monthly
+
+[2023-08-15 21:53:15.362013271 UTC] ERROR: Can't open file: /var/spool/anacron/cron.daily
+
+[2023-08-15 21:53:15.362029982 UTC] ERROR: Can't open file: /var/spool/anacron/cron.weekly
+
+[2023-08-15 21:53:15.366738394 UTC] ERROR: Can't open file: /var/lib/ucf/cache/:etc:profile.d:debuginfod.sh
+
+[2023-08-15 21:53:15.387615596 UTC] ERROR: Can't open file: /var/lib/ucf/cache/:etc:profile.d:debuginfod.csh
+
+[2023-08-15 21:53:15.608154188 UTC] ERROR: Can't open file: /var/lib/logrotate/status
+
+[2023-08-15 21:53:15.632137636 UTC] ERROR: Can't open file: /var/lib/systemd/random-seed
+
+[2023-08-15 21:53:15.641403004 UTC] ERROR: Can't open file: /var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/lock
+
+[2023-08-15 21:53:15.651550693 UTC] ERROR: Can't open file: /var/lib/ubuntu-advantage/messages/apt-news
+
+[2023-08-15 21:53:18.776930215 UTC] ERROR: Can't open file: /var/lib/apt/lists/lock
+
+[2023-08-15 21:53:25.969443437 UTC] ERROR: Can't open file: /var/lib/shim-signed/mok/.rnd
+
+[2023-08-15 21:53:25.969634339 UTC] ERROR: Can't open file: /var/lib/shim-signed/mok/MOK.priv
+
+[2023-08-15 21:53:25.973962480 UTC] ERROR: Can't open file: /var/lib/whoopsie/whoopsie-id
+
+[2023-08-15 21:53:25.974962175 UTC] ERROR: Can't open file: /var/lib/dpkg/lock-frontend
+
+[2023-08-15 21:53:28.880525775 UTC] ERROR: Can't open file: /var/lib/dpkg/triggers/Lock
+
+[2023-08-15 21:53:28.880668846 UTC] ERROR: Can't open file: /var/lib/dpkg/lock
+
+[2023-08-15 21:53:29.072554198 UTC] ERROR: Can't open file: /var/lib/snapd/state.json
+
+[2023-08-15 21:53:29.075710829 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/gnome-3-38-2004_143.snap
+
+[2023-08-15 21:53:29.075734644 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/gnome-3-38-2004_112.snap
+
+[2023-08-15 21:53:29.075750184 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/gnome-42-2204_120.snap
+
+[2023-08-15 21:53:29.075763970 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/firefox_1635.snap
+
+[2023-08-15 21:53:29.075778968 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/snapd_19457.snap
+
+[2023-08-15 21:53:29.075795219 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/firefox_2971.snap
+
+[2023-08-15 21:53:29.075810558 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/snapd-desktop-integration_83.snap
+
+[2023-08-15 21:53:29.075825997 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/core22_858.snap
+
+[2023-08-15 21:53:29.075842028 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/snapd-desktop-integration_14.snap
+
+[2023-08-15 21:53:29.075857116 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/core20_1587.snap
+
+[2023-08-15 21:53:29.075871955 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/firefox_2987.snap
+
+[2023-08-15 21:53:29.075886402 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/bare_5.snap
+
+[2023-08-15 21:53:29.075909806 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/snap-store_959.snap
+
+[2023-08-15 21:53:29.075925005 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/gnome-42-2204_126.snap
+
+[2023-08-15 21:53:29.075939422 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/core20_1974.snap
+
+[2023-08-15 21:53:29.075953980 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/gtk-common-themes_1535.snap
+
+[2023-08-15 21:53:29.075969309 UTC] ERROR: Can't open file: /var/lib/snapd/snaps/snap-store_582.snap
+
+[2023-08-15 21:53:29.095755392 UTC] ERROR: Can't open file: /var/lib/snapd/device/private-keys-v1/SZ08wmAjZjmIXxWSO6qk25tC7_CvGRCAyydAD8-NNEolh9pcKJMdURH3drilLPNI
+
+[2023-08-15 21:53:29.150075612 UTC] ERROR: Can't open file: /var/lib/snapd/errtracker.db
+
+[2023-08-15 21:53:29.152385179 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/gnome-3-38-2004_112.snap
+
+[2023-08-15 21:53:29.152421908 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/firefox_1635.snap
+
+[2023-08-15 21:53:29.152444571 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/snapd-desktop-integration_14.snap
+
+[2023-08-15 21:53:29.152465170 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/core20_1587.snap
+
+[2023-08-15 21:53:29.152488795 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/bare_5.snap
+
+[2023-08-15 21:53:29.152512069 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/snapd_16292.snap
+
+[2023-08-15 21:53:29.152533209 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/gtk-common-themes_1535.snap
+
+[2023-08-15 21:53:29.152553487 UTC] ERROR: Can't open file: /var/lib/snapd/seed/snaps/snap-store_582.snap
+
+[2023-08-15 21:53:29.685859132 UTC] ERROR: Can't open file: /var/crash/_usr_libexec_tracker-miner-fs-3.1000.uploaded
+
+[2023-08-15 21:54:42.361160892 UTC] ERROR: Can't open file: nonexistent_file.txt
+
+[2023-08-15 21:54:43.040190790 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:54:43.042505505 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:54:43.052620598 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:54:43.052759401 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:54:43.073022200 UTC] ERROR: Can't open file: path/to/your/file.txt
+
+[2023-08-15 21:54:43.080452156 UTC] STATUS: Listing files: Please wait...
+
+[2023-08-15 21:54:43.080656583 UTC] STATUS: List of files: Succes !
+
+[2023-08-15 21:54:43.080678976 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:54:43.080970868 UTC] STATUS: Hashing files: Success !
+
+[2023-08-15 21:54:43.080992119 UTC] STATUS: Writing json: Please wait...
+
+[2023-08-15 21:54:43.081050970 UTC] STATUS: Writing json: Success !
+
+[2023-08-15 21:54:43.083593748 UTC] STATUS: Hashing files: Please wait...
+
+[2023-08-15 21:54:43.083816289 UTC] STATUS: Hashing files: Success !
+

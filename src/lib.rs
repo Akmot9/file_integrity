@@ -19,12 +19,15 @@
 //! ## Examples
 //!
 //! ```rust
-//! use file_integrity::hash_file;
-//!
-//! let file_path = String::from("path/to/your/file.txt");
-//! let result = hash_file(file_path.clone());
-//!
-//! // Add more examples and explanations here...
+//! use file_integrity::{list_files, hash_file_list, write_json_file} ;
+//! fn main() {
+//!     let folder_path = "~/" ;
+//!     let nbs_of_file = list_files(&folder_path);
+//!     println!("INFOS: Number of files: {nbs_of_file}"); 
+//!     let hashs = hash_file_list();
+//!     let name = "output.json" ; 
+//!     write_json_file(&hashs, &name);
+//! }
 //! ```
 //!
 //! For more detailed information and examples, refer to the documentation of individual functions and modules.
@@ -41,9 +44,9 @@
 mod data;
 mod hash;
 mod json;
+mod file_listing;
 
-#[doc(hidden)]
 pub use hash::{hash_file, hash_file_list, calculate_md5_hash};
 pub use json::write_json_file;
 pub use data::{FileList, FileInfo};
-
+pub use file_listing::list_files ;
