@@ -1,7 +1,7 @@
 use walkdir::WalkDir;
 use std::fs::File;
 use std::io::{Write, BufWriter};
-use my_logger::log;
+use my_logger::{log, logw};
 
 /// Recursively list files in a directory and write their paths to a text file.
 ///
@@ -64,6 +64,6 @@ pub fn list_files(folder_to_list: &str) -> i32 {
     } else {
         log!("ERROR: Failed to create file_list.txt");
     }
-    log!("STATUS: List of files: Succes !");
+    logw!("STATUS: List of files: Succes !");
     count
 }

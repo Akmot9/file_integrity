@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::{Read, BufReader, BufRead};
 use md5::{Md5, Digest};
 use crate::data::{FileInfo, FileList};
-use my_logger::log;
+use my_logger::{log, logw, logd};
 use chrono::Local;
 
 /// Calculate hashes for a list of files from a text file.
@@ -38,7 +38,7 @@ use chrono::Local;
 /// issues reading lines from the file.
 
 pub fn hash_file_list() -> FileList {
-    log!("STATUS: Hashing files: Please wait...");
+    logw!("STATUS: Hashing files: Please wait...");
     let date = Local::now().format("%Y-%m-%d").to_string();
     let mut liste = FileList {
         date,
@@ -51,7 +51,7 @@ pub fn hash_file_list() -> FileList {
     let file = match File::open(actual_filename) {
         Ok(file) => file,
         Err(error) => {
-            log!("ERROR: Can't open file '{}': {}", actual_filename, error);
+            logd!("ERROR: Can't open file '{}': {}", actual_filename, error);
             return liste;
         }
     };
