@@ -1,6 +1,6 @@
 [package]
 name = "file_integrity"
-version = "0.1.6"
+version = "0.1.7"
 authors = ["akmot9 avicocyprien@yahoo.com"]
 edition = "2021"
 description = "A simple lib to make integrity report "

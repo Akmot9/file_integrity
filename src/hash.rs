@@ -112,7 +112,7 @@ pub fn hash_file(filename: String) -> FileInfo {
     let mut file = match File::open(filename.clone()) {
         Ok(file) => file,
         Err(_) => {
-            log!("ERROR: Can't open file: {}", filename);
+            logw!("ERROR: Can't open file: {}", filename);
             return FileInfo {
                 filename,
                 md5_hash: String::from("none"),
